@@ -13,6 +13,7 @@
 		FDAF420C291188E300C98365 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDAF420A291188E300C98365 /* Main.storyboard */; };
 		FDAF420E291188E700C98365 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDAF420D291188E700C98365 /* Assets.xcassets */; };
 		FDAF4211291188E700C98365 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDAF420F291188E700C98365 /* LaunchScreen.storyboard */; };
+		FDAF421929118EB700C98365 /* CaptionOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAF421829118EB700C98365 /* CaptionOption.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		FDAF420D291188E700C98365 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FDAF4210291188E700C98365 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FDAF4212291188E700C98365 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDAF421829118EB700C98365 /* CaptionOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptionOption.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +60,10 @@
 			children = (
 				FDAF4204291188E300C98365 /* AppDelegate.swift */,
 				FDAF4206291188E300C98365 /* SceneDelegate.swift */,
-				FDAF4208291188E300C98365 /* ViewController.swift */,
-				FDAF420A291188E300C98365 /* Main.storyboard */,
 				FDAF420D291188E700C98365 /* Assets.xcassets */,
+				FDAF4208291188E300C98365 /* ViewController.swift */,
+				FDAF421829118EB700C98365 /* CaptionOption.swift */,
+				FDAF420A291188E300C98365 /* Main.storyboard */,
 				FDAF420F291188E700C98365 /* LaunchScreen.storyboard */,
 				FDAF4212291188E700C98365 /* Info.plist */,
 			);
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDAF4209291188E300C98365 /* ViewController.swift in Sources */,
+				FDAF421929118EB700C98365 /* CaptionOption.swift in Sources */,
 				FDAF4205291188E300C98365 /* AppDelegate.swift in Sources */,
 				FDAF4207291188E300C98365 /* SceneDelegate.swift in Sources */,
 			);
